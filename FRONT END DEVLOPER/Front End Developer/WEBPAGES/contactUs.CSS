@@ -1,0 +1,57 @@
+
+div.about{
+       box-shadow:  0 0 10px 2px #000;
+       width: 30%;
+       height: 50vh;
+       margin: 130px auto;
+       
+
+       }
+
+ .about p{
+
+    margin-left: 20px;
+    display: inline-block;
+ } 
+
+ .ICONS{
+ 	  	  display: inline-block;
+ }
+ form{
+    box-shadow: 0 0 10px 2px #000;
+ 	display: inline-block;
+ 	width: 30%;
+ 	position: absolute;
+ 	top: 60px;
+ 	right: 30px;
+ 	padding-left: 10px;
+ }    
+
+ .input,input,label{
+ 	   display: block;
+
+ }
+ input{
+ 	display: inline-block;
+ 	 	height: 40px;
+ 	 	width: 40%;
+ 	 	margin-bottom: 10px;
+
+ .label,input{
+ 	border: 2px solid;
+ 	display: inline;
+ 	width: 90%;
+
+ }
+
+
+
+.footet p{
+   text-align: center;
+ margin: auto;
+   height: 10vh;
+}
+
+
+
+

@@ -1,0 +1,30 @@
+form{
+	 width: 50%;
+
+	 box-shadow: 0 0 10px 3px #000;
+     
+     margin: 100px auto;
+}
+  
+  #center{
+       position: relative;
+       left: 200px;
+       top: 20px;
+       display: inline-block;
+       margin-bottom: 30px;
+  }
+  input,label{
+         	margin-left: 10px;
+  	  display:block;
+  } 
+  input{
+  	display: inline; 
+  	margin-bottom: 15px;
+ } 
+ .contry{
+ 	 display: inline;
+ 	 width: 45%;
+ 	 margin-left: 10px;
+ }
+
+ 

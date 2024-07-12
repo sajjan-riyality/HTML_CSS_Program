@@ -1,0 +1,21 @@
+
+form{
+      width: 30%;
+      box-shadow: 0 0 10px 3px #000;
+      margin: 100px auto;
+      padding: 20px;
+
+}
+   
+
+h1{
+	text-align: center;
+}
+input,label{
+	 
+	   margin-bottom: 10px;
+}
+input{
+}
+
+

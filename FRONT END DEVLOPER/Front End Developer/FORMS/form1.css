@@ -1,0 +1,27 @@
+   form{
+
+	
+	width:50%;
+	margin: 50px auto;
+	box-shadow: 0 0  10px 2px #000;
+	background: #90ee904a;
+}
+
+ input,label{
+ 	display: block;
+ 	padding: 10px;
+ }
+ input{
+ 	margin-bottom: 10px;
+ margin-left: 10px;
+     width: 41%;
+     display: inline; 
+
+ }
+ .hr{
+ 	border-bottom: 2px solid;
+ 	position: relative;
+ 	top: 30px;
+ 	width: 90%;
+ 	left: 15px;
+ }

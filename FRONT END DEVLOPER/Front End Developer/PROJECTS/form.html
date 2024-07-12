@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title> Web Page</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+	<style type="text/css">
+
+        
+        .logo{
+                width: 40px;
+             height: 40px;
+             display: inline-block;
+            border-radius: 40%;
+
+
+
+        }
+      img{
+             width: 100%;
+             border-radius: 40%;
+           
+             border: 2px solid;
+
+     }
+		.navbar ul{
+			 border: 2px solid ;
+                 margin:0;
+                 padding: 10px;
+			 background: gray;  
+			 text-decoration: center;
+			 overflow: hidden;
+                list-style-type: none;
+                text-align: center;
+                 margin-bottom: 10px;
+		}
+		.navbar li{
+			display: inline-block;
+		}
+		.navbar a{
+                text-decoration: none;
+                margin: 20px;
+                color: white;
+           }
+       .dropdown .dropbtn {
+                font-size: 16px;  
+                border: none;
+                outline: none;
+                color: white;              
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                cursor: pointer;
+                 }
+     	.navbar a:hover, .dropdown:hover .dropbtn {
+                 background-color: gray;
+                 }
+                 	
+        .dropdown-content{
+               display: none;
+               position: absolute;
+                min-width: 120px;
+               background-color: #f9f9f9;
+               box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                   z-index: 1; 
+		}
+         		
+        .dropdown-content a {
+			float: none;
+               display: block;
+               padding: 12px 16px;
+               color: black;
+               text-decoration: none;
+               text-align: left;
+                 
+		}
+
+
+
+         		.dropdown-content a:hover{
+         			float: left;
+         			overflow: hidden;
+         		}
+		.dropbtn{
+			background-color: inherit;
+			border: inherit;
+			color: white;
+
+		}
+
+	
+		.Dropdown:hover .dropdown-content{
+			display: block;
+		}
+         #search{
+         	position: relative;
+         	left: 150px;
+         }
+         .logo{
+                 background-image: url(E:\Front End Developer\PROGRAMS\computer.jpg);
+                 border: 2px solid;
+                 height: 100px;
+         }
+     
+		
+	
+ </style>
+</head>
+<body>
+        <!-- Navigation Bar -->
+     <nav class="navbar">
+     
+          <ul>
+                	<li><a href="file:///E:/Front%20End%20Developer/WEBPAGES/TRAVELAR.HTML">Home</a></li>
+          	<li><a href="#">servises</a></li>
+          	<li><a href="#">product</a></li>
+          	<li><a href="file:///E:/Front%20End%20Developer/PROJECTS/contact.html?">Contact</a></li>
+          	<li><div class="Dropdown">
+          		     <button class="dropbtn">
+          			    Click Us  <i class="fa fa-caret-down"></i>
+          		     </button>
+          		   <div class="dropdown-content">
+          		   	<a href="file:///E:/Front%20End%20Developer/PROJECTS/LoginPage.html#" >Login</a>
+          		   	<a href="file:///E:/Front%20End%20Developer/PROJECTS/SignUp.html">SignUp</a>
+          		   	<a href="file:///E:/Front%20End%20Developer/PROJECTS/Register.html?">Resister</a>
+          		   </div>
+          	     </div>
+               </li>
+
+            <li id="search"><i class="fa fa-search "></i> <input type="search"  name="" placeholder="search">
+          		</li>
+          </ul>
+           
+
+    </nav>
+     
+          
+ 
+     
+
+
+     
+  
+  
+</body>
+</html>

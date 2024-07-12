@@ -1,0 +1,372 @@
+
+header{
+	 width: 100%;
+	 height: 90px;
+
+}
+.header{
+	position: fixed;
+	width: 100%;
+	height: 85px;
+	display: flex;
+	justify-content: space-between;
+/*	border: 2px solid;*/
+    box-shadow: 0 0 10px 2px #000;
+    background: white;
+}
+
+.logo{
+  width: 20%;
+/*  height: 50px;*/
+   
+}
+.logo img{
+	 width: 100%;
+	 height: 100%;
+}
+
+.navbar{
+	 width: 60%;
+	 height: 100%;
+}
+ .navbar nav ul{
+      display: flex;
+      justify-content: space-evenly;
+ } 
+
+  .navbar nav ul li{
+  	list-style-type: none;
+
+
+    
+  }
+
+   .navbar nav ul li a{
+      text-decoration: none;
+       font-size: 25px;
+       line-height: 50px;
+       font-weight: 700;
+       color: black;
+   }
+
+   .navbar nav ul li a.btn{
+            display: inline-block;
+            width: 180px;
+            height: 60px;
+            line-height: 60px;
+            background-color: #f09053;
+            color: #000;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 50px;
+            transition: all ease 0.5s;
+        }
+
+    .navbar nav ul li a.btn:hover{
+/*    	 background: ;*/
+    }    
+/*----------------------------------- header complete ---------------------------*/
+
+/* ------------------------------------ body ----------------------------------- */
+/* ------------------------------------ contactMain ---------------------------s */ 
+
+.contectMain{
+	 width: 100%;
+
+
+}
+
+.contectMain .contentImg{
+	  width: 100%;
+
+}
+
+
+.contectMain .contentImg img{
+	 width: 100%;
+	 height: 100%;
+   }
+
+
+.inputMain{
+
+      width: 100%;
+/*      border: 2px solid;*/
+      display: flex;
+      justify-content: space-evenly;
+       margin-top: 20px;
+       padding: 10px;
+}
+
+
+  .inputContent{
+
+/*          border: 2px solid ;*/
+          width: 48%;
+          
+         
+
+
+
+  } 
+
+
+    .inputContent form{
+           width: 90%;
+           height: 100%;
+/*           border: 2px solid;*/
+           margin: auto ;
+           font-size: 25px;
+           font-weight: 800;
+    }
+    .inputContent form h1{
+         
+           text-shadow: 0px 0px 8px #ffb900;
+    }
+
+
+      .inputContent form input{
+           width: 47%;
+           height: 50px;
+           font-size: 15px;
+           font-weight: 600;
+           margin: auto;
+           margin: 5px;
+           border: none;
+           background: #87ceeb21;
+           border-radius: 5px;
+           
+
+      }
+
+      .inputContent form textarea{
+           width: 95%;
+         font-size: 15px;
+           font-weight: 600;
+           margin: auto;
+           margin: 5px;
+           border: none;
+           background: #87ceeb21;
+           border-radius: 5px;
+
+      }
+
+       .inputContent form .submitBtn{
+
+        height: 40px;
+        width: 30%;
+        background: skyblue;
+
+     }
+/*     .inputContent form .submitBtn:hover{}*/
+
+
+  
+     .suppotContactMain{
+             width: 48%;
+/*            height: 400px;*/
+/*            border: 2px  solid;*/
+            display: flex;
+            justify-content: center;
+        }
+
+        .supportIcons{
+/*              border: 2px solid;*/
+        }
+ 
+
+    .suppotContactMain .contentText{
+            width: 70%;
+/*            height: 90%;*/
+/*            border: 2px solid;*/
+/*            padding: 20px;*/
+    }
+   
+
+    .suppotContactMain div h1{
+
+         font-size: 30px;
+         font-weight: 300;
+
+    }
+    .suppotContact{
+/*        border: 2px solid;*/
+        width: 50%;
+        padding: 10px;
+        box-shadow: 0 0 10px 2px #00000014;
+
+    }
+
+
+    .suppotContact .supportIcons .symbols{
+            font-size: 30px;
+            font-weight: 800;
+            color: blue;
+           
+    }
+
+    .suppotContact .supportIcons h1{
+          font-size: 30px;
+         font-weight: 600;
+
+    }
+
+
+/* ------------------------------------------------- footer --------------------------------------------- */
+
+
+footer{
+
+
+   width: 100%;
+/*   height:  450px;*/
+   background: black ;
+/*   margin-top:0px;*/
+background-image: url(https://img.freepik.com/premium-photo/city-skyline-night-downtown-generated-ai_34683-3589.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 50px;
+
+
+}
+
+footer .footerInfo{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.footerInfo div{
+/*     border: 2px solid red;*/
+     height: 400px;
+     width: 24%;
+    color: white;
+     padding: 30px 10px 10px ;
+/*     text-align: center ;*/
+}
+/*------------------------ info -------------------------*/
+
+.info img{
+
+      width: 50%;
+      margin: 0 0 0 15px;
+}
+ .info p{
+       padding: 10px;
+       font-size: 20px;
+ } 
+
+/*-------------------------- icon -----------------------*/
+.icons{
+    font-size: 25px;
+    font-weight: 500px;
+    
+     margin: 10px;
+     transform: translate(2px 2px);
+     padding: 10px;
+     border-radius: 50%;
+     color: white;
+     background: radial-gradient( 100px, white,transparent 100%);
+
+    }
+/*.icons:hover{
+    color: orange;
+
+     background: radial-gradient(100px , #7a5858, transparent 50%);
+}
+*/
+
+
+
+
+
+/*  --------------------- support  -------------------- */
+/*  ---------------------  help by akash sir  -------------------- */
+ 
+ /*.support h1, .link h1 {
+      padding-left: 50px;
+
+ }
+
+
+
+ .support ul, .link ul{
+     margin-top: 40px;
+     padding-left: 50px;
+ }
+ .support ul li, .link ul li{
+     list-style-type: none;
+     margin: 10px;
+   }
+
+ .support li a, .link li a{ 
+    font-size: 20px;
+    text-decoration: none;
+      color: white;
+
+ }*/
+
+/*-------------------------support & link & policy -------------------------- */
+ 
+  .footerInfo{
+
+  }
+
+ .footerInfo h1{
+        margin-left: 50px;
+ }
+ .footerInfo ul{
+     margin-top: 50px;
+     padding-left: 50px;
+ }
+ .footerInfo ul li{
+     list-style-type: none;
+     margin: 10px;
+   }
+
+ .footerInfo ul li a{ 
+    font-size: 20px;
+    text-decoration: none;
+      color: white;
+  }
+
+/*----------------------- madeIn --------------------------*/
+
+.madeIn{
+
+      width: 100%;
+/*      height: 50px;*/
+      background-color: black;
+      text-align: center;
+/*      padding: 10px;*/
+      font-size: 20px;
+      color: white;
+      margin-top: 10px;
+      padding-bottom: 10px;
+
+}
+.madeIn h3{
+/*      margin: 10px;*/
+}
+
+
+/* -------------------  rights   ----------------------------------------- */
+
+ footer .footerReserved{
+/*       background-color: white;*/
+/*       height: 100px;*/
+       width: 100%;
+       height: 30px;
+
+}
+
+ footer .footerReserved h1{
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+ }
+
+/*---------------------------footer end ----------------------- */
+
+

@@ -1,0 +1,117 @@
+.nav{
+
+	box-shadow: 0 0 10px 2px #000;
+     width: 100vw;
+     height: 90px;
+     text-align: center;
+     padding-bottom: 20PX;
+     text-align: center;
+
+} 
+h1{
+	 padding-top: 20px;
+}
+ 
+
+.PACKAGES{
+      
+         width: 30%;
+         height: 80vh;
+         border: 2px solid #000;
+         margin-top:10px;
+         margin-left: 22px;
+         display: inline-block;
+         border-radius: 20px;
+
+     }
+     img{
+     	  width: 100%;
+     	    border-radius: 20px 20px 0 0;
+     }
+     .template{
+     	overflow: hidden;
+     	font-size: 20px;
+     	font-weight: 900;
+     	text-overflow: ellipsis;
+     	white-space: nowrap;
+     	line-height: 30px;
+     	padding-left: 8px;
+
+
+
+/*
+     	    font-weight: 900;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    flex: 1;
+    padding-right: 10px*/
+
+     }
+ .line{
+ 	 border-bottom: 2px solid #000;
+ 	 width: 90%;
+ 	 margin-left: 10px;
+ 	 border-style: ridge;
+      }
+
+  
+  a{
+  	text-decoration: none;
+  	color: gray;
+  }
+
+
+  .ul table{
+  	   
+  	     font-size: 13px;
+  	     margin-left: -25px;
+  	  
+
+  	  
+  }
+    table,tr,td{
+/*    	   border: 2px solid;*/
+    	 
+    	   border-collapse: collapse;
+    }
+
+    td{
+    	padding-left: 10px;
+    	padding-right: 10px;
+
+    }
+
+    .price{
+    	 border: 2px solid gray;
+    	 width: 90%;
+    	 height: 50px;
+    	 margin: auto;
+    	 border-radius: 10px;
+    	 background: #8080802e;
+
+
+    }
+    .price p{
+    	 font-size: 15px;
+    	 padding-bottom: 5px;
+    	 padding-left: 10px;
+    	 display: inline-block;
+    } 
+
+    .value{
+    	position: relative;
+    	left: 180px;
+    	font-size: 13px;
+    	bottom: 50px;
+    }
+
+
+
+
+
+
+

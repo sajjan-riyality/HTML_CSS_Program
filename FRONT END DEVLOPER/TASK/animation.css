@@ -1,0 +1,28 @@
+
+
+.box{
+	 border: 2px solid #000;
+	 width: 20%;
+	 height: 200px;
+	 margin: 100px auto;
+	 background: gray;
+
+}
+.child{
+	     background: red;
+	     height: 200px;
+	     width: 100%;
+	   animation: tranform 10s infinite;
+	   	  
+}
+@keyframes{
+	 to{
+	 	  transform: rotate(45deg);
+	 }
+}
+.circle{
+	       height: 200px;
+	       width: 100%;
+	       background: green;
+	       transform: rotate(90deg);
+}

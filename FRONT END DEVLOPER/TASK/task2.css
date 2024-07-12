@@ -1,0 +1,156 @@
+body{
+	margin-left: -10px;
+	margin-right: -10px;
+}
+.headding{
+	width: 100%;
+	height: 50px;
+/*	border: 2px solid;*/
+	text-align: center;
+/*	padding: 20px;*/
+
+
+}
+.headding h1{
+	color: #0000ffa8;
+	font-size: 40px;
+	margin: 10px;
+}
+.headding p{
+	      position: absolute;
+	      top: 35px;
+	      left: 600px;
+	      font-size: 15px;
+}
+ .headding img{
+ 	  position: absolute;
+ 	    top: 20px;
+	      left: 550px;
+	      width: 50px;
+	      height: 50px;
+ }
+
+
+
+
+.img{
+    width: 100%;
+	height: 250px;
+/*	border: 2px solid; */
+margin-top: 10px;
+}
+img{
+	width: 100%;
+	height: 250px;
+}
+ .data{
+ 	position: absolute;
+ 	top: 100px;
+ 	left: 20px;
+ 	width: 40%;
+ }
+ .bg{
+ 	background-color: #ffffff63;
+ 	display: inline-block;
+
+ }
+.navbar{
+	  background-color: #8080804f;
+	  margin-top: -15px;
+}
+
+.navbar ul{
+	 display: flex;
+         justify-content: center; 
+/*        justify-content: space-between;*/
+
+
+}
+.navbar li{
+        list-style-type: none;
+         display: inline-block;
+         padding: 20px;
+         font-size: 20px;
+      
+        
+
+
+}
+.navbar li:hover{
+	 background-color: #90caf9;
+}
+
+
+
+.navbar a{
+	
+	 text-decoration: none;
+	 padding: 10px;
+	    padding-left: 20px;
+         padding-right: 20px;
+}
+
+.content{
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+         
+          text-align: center;
+
+}
+.hr1{
+	 border: 1px solid;
+/*	 border-bottom: inherit;*/
+	 width: 30%;
+	  position: absolute;
+	 left: 200px;
+	 top: 440PX;
+
+}
+.hr2{
+	 border: 1px solid;
+/*	 border-bottom: inherit;*/
+	 width: 30%;
+	 position: absolute;
+	 right: 200px;
+	 top: 440PX;
+
+
+}
+.travel{
+      display: flex;
+/*      justify-content: center;*/
+      justify-content: space-evenly;
+     
+
+
+}
+.place{
+/*	   background: gray;*/
+border: 2px solid;
+	   width: 20%;
+	   height: 400px;
+
+}
+.place img{
+	  width: 100%;
+	  height: 150px;
+	  background-color: gray;
+}
+.icon{
+	display: flex;
+	justify-content: center;
+}
+
+.icons{
+	 display: inline-block;
+	 color: blue;
+	 position: relative;
+	 margin-top: 20px;
+	 font-size: 20px;
+
+   }
+   .place p{
+   	display:inline-block;
+   	margin-left: 20px;
+   }
